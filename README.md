@@ -7,9 +7,23 @@ state and is being actively
 developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
 [![Build
 Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis-ci.org/trinker/lexicon)
-<a href="https://img.shields.io/badge/Version-0.0.1-orange.svg"><img src="https://img.shields.io/badge/Version-0.0.1-orange.svg" alt="Version"/></a>
+[![](http://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
+<a href="https://img.shields.io/badge/Version-0.1.0-orange.svg"><img src="https://img.shields.io/badge/Version-0.1.0-orange.svg" alt="Version"/></a>
 </p>
 <img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">
+
+
+Table of Contents
+============
+
+-   [Description](#description)
+-   [Data](#data)
+-   [Installation](#installation)
+-   [Contact](#contact)
+
+Description
+============
+
 
 **lexicon** is a collection of lexical hash tables, dictionaries, and
 word lists. The data prefixes help to categorize the data types:
@@ -49,17 +63,8 @@ word lists. The data prefixes help to categorize the data types:
 </tbody>
 </table>
 
-
-Table of Contents
-============
-
--   [Data](#data)
--   [Installation](#installation)
--   [Contact](#contact)
-
 Data
-============
-
+====
 
 <table style="width:88%;">
 <colgroup>
@@ -146,54 +151,58 @@ Data
 <td align="left"><p>Grades Hash</p></td>
 </tr>
 <tr class="odd">
+<td align="left"><p><code>key_rating</code></p></td>
+<td align="left"><p>Ratings Data Set</p></td>
+</tr>
+<tr class="even">
 <td align="left"><p><code>nrc_emotions</code></p></td>
 <td align="left"><p>NRC Emotions</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>pos_action_verb</code></p></td>
 <td align="left"><p>Action Word List</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>pos_adverb</code></p></td>
 <td align="left"><p>Adverb Word List</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>pos_df_pronouns</code></p></td>
 <td align="left"><p>Pronouns</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>pos_interjections</code></p></td>
 <td align="left"><p>Interjections</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>pos_preposition</code></p></td>
 <td align="left"><p>Preposition Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_buckley_salton</code></p></td>
 <td align="left"><p>Buckley &amp; Salton Stopword List</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_dolch</code></p></td>
 <td align="left"><p>Leveled Dolch List of 220 Common Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_fry_100</code></p></td>
 <td align="left"><p>Fry's 100 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_fry_1000</code></p></td>
 <td align="left"><p>Fry's 1000 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_fry_200</code></p></td>
 <td align="left"><p>Fry's 200 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_fry_25</code></p></td>
 <td align="left"><p>Fry's 25 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_onix</code></p></td>
 <td align="left"><p>Onix Text Retrieval Toolkit Stopword List 1</p></td>
 </tr>

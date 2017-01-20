@@ -17,6 +17,19 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
+lexicon 0.1.0
+----------------------------------------------------------------
+
+NEW FEATURES
+
+* The `ratings` and `grades` keys from **sentimentr** have been moved to the
+  **lexicon** package and renamed to `key_rating` and `key_grade`.
+
+IMPROVEMENTS
+
+* Added the positve terms 'spot on', 'on time', & 'on point' to `hash_sentiment`.
+
+
 lexicon 0.0.1
 ----------------------------------------------------------------
 
