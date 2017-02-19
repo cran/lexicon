@@ -6,6 +6,8 @@ freq_last_names
 function_words
 grady_augmented
 hash_emoticons
+hash_grady_pos
+hash_lemmas
 hash_power
 hash_sentiment
 hash_sentiment_nrc
