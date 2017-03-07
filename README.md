@@ -8,7 +8,7 @@ developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repos
 [![Build
 Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis-ci.org/trinker/lexicon)
 [![](http://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
-<a href="https://img.shields.io/badge/Version-0.1.1-orange.svg"><img src="https://img.shields.io/badge/Version-0.1.1-orange.svg" alt="Version"/></a>
+<a href="https://img.shields.io/badge/Version-0.2.0-orange.svg"><img src="https://img.shields.io/badge/Version-0.2.0-orange.svg" alt="Version"/></a>
 </p>
 <img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">
 
@@ -123,44 +123,52 @@ Data
 <td><p>Power Lookup Key</p></td>
 </tr>
 <tr class="even">
-<td><p><code>hash_sentiment</code></p></td>
-<td><p>Polarity Lookup Key</p></td>
+<td><p><code>hash_sentiment_huliu</code></p></td>
+<td><p>Hu Liu Polarity Lookup Table</p></td>
 </tr>
 <tr class="odd">
-<td><p><code>hash_sentiment_nrc</code></p></td>
-<td><p>NRC Sentiment Lookup Key</p></td>
+<td><p><code>hash_sentiment_jockers</code></p></td>
+<td><p>Jockers Sentiment Polarity Table</p></td>
 </tr>
 <tr class="even">
-<td><p><code>hash_sentiword</code></p></td>
-<td><p>Augmented Sentiword</p></td>
+<td><p><code>hash_sentiment_nrc</code></p></td>
+<td><p>NRC Sentiment Polarity Table</p></td>
 </tr>
 <tr class="odd">
+<td><p><code>hash_sentiment_sentiword</code></p></td>
+<td><p>Augmented Sentiword Polarity Table</p></td>
+</tr>
+<tr class="even">
 <td><p><code>hash_strength</code></p></td>
 <td><p>Strength Lookup Key</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>hash_syllable</code></p></td>
 <td><p>Syllable Counts</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>hash_valence_shifters</code></p></td>
 <td><p>Valence Shifters</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>key_abbreviation</code></p></td>
 <td><p>Common Abbreviations</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>key_contractions</code></p></td>
 <td><p>Contraction Conversions</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>key_grade</code></p></td>
 <td><p>Grades Hash</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>key_rating</code></p></td>
 <td><p>Ratings Data Set</p></td>
+</tr>
+<tr class="odd">
+<td><p><code>key_sentiment_jockers</code></p></td>
+<td><p>Jockers Sentiment Data Set</p></td>
 </tr>
 <tr class="even">
 <td><p><code>nrc_emotions</code></p></td>

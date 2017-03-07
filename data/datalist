@@ -9,9 +9,9 @@ hash_emoticons
 hash_grady_pos
 hash_lemmas
 hash_power
-hash_sentiment
+hash_sentiment_huliu
 hash_sentiment_nrc
-hash_sentiword
+hash_sentiment_sentiword
 hash_strength
 hash_syllable
 hash_valence_shifters
