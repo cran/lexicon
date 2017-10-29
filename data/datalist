@@ -22,9 +22,16 @@ key_rating
 nrc_emotions
 pos_action_verb
 pos_adverb
+pos_df_irregular_nouns
 pos_df_pronouns
 pos_interjections
 pos_preposition
+pos_unchanging_nouns
+profanity_alvarez
+profanity_arr_bad
+profanity_banned
+profanity_google
+profanity_von_ahn
 sw_buckley_salton
 sw_dolch
 sw_fry_100

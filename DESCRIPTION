@@ -1,14 +1,13 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 0.3.1
-Authors@R: c(person("Tyler", "Rinker", email =
-        "tyler.rinker@gmail.com", role = c("aut", "cre")))
+Version: 0.4.1
+Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut",
+          "cre")))
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
-Description: A collection of lexical hash tables, dictionaries, and
-        word lists.
+Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
 Imports: data.table, syuzhet (>= 1.0.1)
-Date: 2017-04-09
+Date: 2017-10-28
 License: MIT + file LICENSE
 LazyData: TRUE
 RoxygenNote: 6.0.1
@@ -25,11 +24,15 @@ Collate: 'available_data.R' 'common_names.R'
         'key_abbreviation.R' 'key_contractions.R' 'key_grade.R'
         'key_grades.R' 'key_ratings.R' 'lexicon-package.R'
         'nrc_emotions.R' 'pos_action_verb.R' 'pos_adverb.R'
-        'pos_df_pronouns.R' 'pos_interjections.R' 'pos_preposition.R'
-        'sw_buckley_salton.R' 'sw_dolch.R' 'sw_fry_100.R'
-        'sw_fry_1000.R' 'sw_fry_200.R' 'sw_fry_25.R' 'sw_onix.R'
+        'pos_df_irregular_nouns.R' 'pos_df_pronouns.R'
+        'pos_interjections.R' 'pos_preposition.R'
+        'pos_unchanging_nouns.R' 'profanity_alvarez.R'
+        'profanity_arr_bad.R' 'profanity_banned.R' 'profanity_google.R'
+        'profanity_von_ahn.R' 'sw_buckley_salton.R' 'sw_dolch.R'
+        'sw_fry_100.R' 'sw_fry_1000.R' 'sw_fry_200.R' 'sw_fry_25.R'
+        'sw_onix.R'
 NeedsCompilation: no
-Packaged: 2017-04-10 01:05:55 UTC; Tyler
+Packaged: 2017-10-28 23:24:49 UTC; Tyler
 Author: Tyler Rinker [aut, cre]
 Repository: CRAN
-Date/Publication: 2017-04-10 13:17:43 UTC
+Date/Publication: 2017-10-29 14:13:50 UTC

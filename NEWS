@@ -17,6 +17,30 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
+lexicon 0.4.0 - 0.4.1
+----------------------------------------------------------------
+
+BUG FIXES
+
+* `function_words` contained duplicates that have been been removed.
+
+* `hash_lemmas` contained an erroneous token-lemma pair (also-conjurer).  This
+  was spotted by Mitchell Linegar (see https://github.com/trinker/textstem/issues/5).
+  The token `also` has been removed from the dictionary.
+
+
+NEW FEATURES
+
+* `pos_df_irregular_nouns` and `pos_unchanging_nouns` added.  The former is a
+  data.frame of singular and plural forms of irregular nouns.  The latter is
+  a simple list of irregular nouns that have the same singular and plural forms.
+
+* `profanity_alvarez`, `profanity_arr_bad`, `profanity_banned`,
+  `profanity_google`, & `profanity_von_ahn` added to give access to profanity
+  word lists.
+
+
+
 lexicon 0.3.0 - 0.3.1
 ----------------------------------------------------------------
 
@@ -24,6 +48,7 @@ BUG FIXES
 
 * `freq_first_names` and `freq_last_names` were just a string of the data set
   name.  This has been updated with the actual data set.
+
 
 NEW FEATURES
 
@@ -38,6 +63,7 @@ NEW FEATURES
 * `hash_sentiment_jockers` and `key_sentiment_jockers` added as objects though
   they are not data objects but for all purposes act the same.  These data sets
   come from **syuzhet**'s custom dictionary built by Jockers.
+
 
 CHANGES
 

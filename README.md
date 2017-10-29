@@ -1,4 +1,4 @@
-lexicon   [![Follow](https://img.shields.io/twitter/follow/tylerrinker.svg?style=social)](https://twitter.com/intent/follow?screen_name=tylerrinker)
+lexicon   
 ============
 
 
@@ -8,8 +8,6 @@ developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repos
 [![Build
 Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis-ci.org/trinker/lexicon)
 [![](http://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
-<a href="https://img.shields.io/badge/Version-0.3.1-orange.svg"><img src="https://img.shields.io/badge/Version-0.3.1-orange.svg" alt="Version"/></a>
-</p>
 
 ![](tools/lexicon_logo/r_lexicon.png)
 
@@ -50,14 +48,18 @@ word lists. The data prefixes help to categorize the data types:
 <td>A <code>data.table</code> of terms with frequencies</td>
 </tr>
 <tr class="even">
+<td><code>profanity</code></td>
+<td>A vector of profane words</td>
+</tr>
+<tr class="odd">
 <td><code>pos_</code></td>
 <td>A part of speech <code>vector</code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>pos_df_</code></td>
 <td>A part of speech <code>data.frame</code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>sw_</code></td>
 <td>A stopword <code>vector</code></td>
 </tr>
@@ -236,60 +238,102 @@ Data
 </td>
 </tr>
 <tr class="odd">
+<td><p>pos_df_irregular_nouns</p>
+</td>
+<td><p>Irregular Nouns Word Dataframe</p>
+</td>
+</tr>
+<tr class="even">
 <td><p>pos_df_pronouns</p>
 </td>
 <td><p>Pronouns</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>pos_interjections</p>
 </td>
 <td><p>Interjections</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>pos_preposition</p>
 </td>
 <td><p>Preposition Words</p>
 </td>
 </tr>
+<tr class="odd">
+<td><p>pos_unchanging_nouns</p>
+</td>
+<td><p>Nouns that are the Same Plural/Singular</p>
+</td>
+</tr>
 <tr class="even">
+<td><p>profanity_alvarez</p>
+</td>
+<td><p>Alejandro U. Alvarez's List of Profane Words</p>
+</td>
+</tr>
+<tr class="odd">
+<td><p>profanity_arr_bad</p>
+</td>
+<td><p>Stackoverflow user2592414's List of Profane Words</p>
+</td>
+</tr>
+<tr class="even">
+<td><p>profanity_banned</p>
+</td>
+<td><p>bannedwordlist.com's List of Profane Words</p>
+</td>
+</tr>
+<tr class="odd">
+<td><p>profanity_google</p>
+</td>
+<td><p>Google's List of Profane Words</p>
+</td>
+</tr>
+<tr class="even">
+<td><p>profanity_von_ahn</p>
+</td>
+<td><p>Luis von Ahn's List of Profane Words</p>
+</td>
+</tr>
+<tr class="odd">
 <td><p>sw_buckley_salton</p>
 </td>
 <td><p>Buckley &amp; Salton Stopword List</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_dolch</p>
 </td>
 <td><p>Leveled Dolch List of 220 Common Words</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_fry_100</p>
 </td>
 <td><p>Fry's 100 Most Commonly Used English Words</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_fry_1000</p>
 </td>
 <td><p>Fry's 1000 Most Commonly Used English Words</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_fry_200</p>
 </td>
 <td><p>Fry's 200 Most Commonly Used English Words</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_fry_25</p>
 </td>
 <td><p>Fry's 25 Most Commonly Used English Words</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_onix</p>
 </td>
 <td><p>Onix Text Retrieval Toolkit Stopword List 1</p>
