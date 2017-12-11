@@ -17,6 +17,53 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
+
+lexicon 0.5.0 - 0.6.3
+----------------------------------------------------------------
+
+BUG FIXES
+
+NEW FEATURES
+
+* `sw_mallete`, `sw_jockers`, `sw_python`, `sw_lucene`, `sw_loughran_mcdonald_short`,
+  & `sw_loughran_mcdonald_long` stopword lists added.
+
+* `hash_sentiment_senticnet` `hash_sentiment_vadar`, `hash_sentiment_inquirer`,
+  `hash_sentiment_loughran_mcdonald`, `hash_sentiment_emojis` &
+  `hash_sentiment_jockers_rinker` sentiment hash tables added for use in the
+  **sentimentr** package.
+
+* `modal_loughran_mcdonald` added; a data.table of weak, moderate, and strong
+  modal verbs.
+
+* `constraining_loughran_mcdonald` added, a vector of words that are associated
+  with constraining.
+
+* `hash_emojis` and `emojis_sentiment` data sets added for text analysis with
+  emojis.
+
+
+MINOR FEATURES
+
+IMPROVEMENTS
+
+* `hash_valence_shifters` added following negators: "daren't", "hadn't",
+  "needn't", "oughtn't"; the following amplifiers: "absolutely", "considerably",
+  "decidedly", "especially", "majorly", "most", "uber"; the following
+  de-amplifiers: "almost", "kind of", "kinda", "partly", "somewhat", "sort of",
+  "sorta".  In addition, all contraction negators were re-added
+  to the `hash_valence_shifters` sans apostrophe as cleaning or less formal
+  writing may result in contractions without apostrophes.
+
+CHANGES
+
+*  The word "incredibly" was removed from `hash_sentiment_jockers`,
+  `hash_sentiment_huliu`, & `hash_sentiment_sentiword` and added as an amplifier
+  to `hash_valence_shifters`.  Spotted by AbdulMajedRaja:
+  https://github.com/trinker/sentimentr/issues/58#issuecomment-343373693
+
+
+
 lexicon 0.4.0 - 0.4.1
 ----------------------------------------------------------------
 
