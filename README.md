@@ -112,51 +112,63 @@ Data
 </td>
 </tr>
 <tr class="even">
+<td><p>enable_word_list</p>
+</td>
+<td><p>ENABLE Word List</p>
+</td>
+</tr>
+<tr class="odd">
 <td><p>freq_first_names</p>
 </td>
 <td><p>Frequent U.S. First Names</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>freq_last_names</p>
 </td>
 <td><p>Frequent U.S. Last Names</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>function_words</p>
 </td>
 <td><p>Function Words</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>grady_augmented</p>
 </td>
 <td><p>Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_emojis</p>
 </td>
 <td><p>Emoji Description Lookup Table</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_emojis_identifier</p>
 </td>
 <td><p>Emoji Identifier Lookup Table</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_emoticons</p>
 </td>
 <td><p>Emoticons</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_grady_pos</p>
 </td>
 <td><p>Grady Ward's Moby Parts of Speech</p>
+</td>
+</tr>
+<tr class="odd">
+<td><p>hash_internet_slang</p>
+</td>
+<td><p>List of Internet Slang and Corresponding Meanings</p>
 </td>
 </tr>
 <tr class="even">
@@ -223,6 +235,18 @@ Data
 <td><p>hash_sentiment_sentiword</p>
 </td>
 <td><p>Augmented Sentiword Polarity Table</p>
+</td>
+</tr>
+<tr class="odd">
+<td><p>hash_sentiment_slangsd</p>
+</td>
+<td><p>SlangSD Sentiment Polarity Table</p>
+</td>
+</tr>
+<tr class="even">
+<td><p>hash_sentiment_socal_google</p>
+</td>
+<td><p>SO-CAL Google Polarity Table</p>
 </td>
 </tr>
 <tr class="odd">

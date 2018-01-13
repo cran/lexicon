@@ -18,10 +18,38 @@ And constructed with the following guidelines:
 
 
 
-lexicon 0.5.0 - 0.6.3
+lexicon 0.7.0 - 0.7.4
 ----------------------------------------------------------------
 
 BUG FIXES
+
+* `emojis_sentiment` & `hash_emojis` contained non-ASCII characters.  These have
+  been removed.
+
+
+NEW FEATURES
+
+* `hash_sentiment_socal_google` and `hash_sentiment_slangsd` sentiment hash
+  tables added for use in the **sentimentr** package.
+
+* `hash_internet_slag` added as a lexicon to map slang to understood meaning.
+
+* `enable_word_list` added.  This is the Enhanced North American Benchmark
+  Lexicon (ENABLE) which is used in the game Words With Friends
+  (https://en.wikipedia.org/wiki/Words_with_Friends).
+
+
+
+CHANGES
+
+* The columns `n_pos`, `space`, & `primary` have been removed from the
+  `hash_grady_pos` data set to save space.  The `grady_pos_feature` function can
+  be used to re-add these columns.
+
+
+
+lexicon 0.5.0 - 0.6.3
+----------------------------------------------------------------
 
 NEW FEATURES
 
@@ -42,8 +70,6 @@ NEW FEATURES
 * `hash_emojis` and `emojis_sentiment` data sets added for text analysis with
   emojis.
 
-
-MINOR FEATURES
 
 IMPROVEMENTS
 

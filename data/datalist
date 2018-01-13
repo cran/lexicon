@@ -3,6 +3,7 @@ constraining_loughran_mcdonald
 discourse_markers_alemany
 dodds_sentiment
 emojis_sentiment
+enable_word_list
 freq_first_names
 freq_last_names
 function_words
@@ -11,6 +12,7 @@ hash_emojis
 hash_emojis_identifier
 hash_emoticons
 hash_grady_pos
+hash_internet_slang
 hash_lemmas
 hash_power
 hash_sentiment_emojis
@@ -21,6 +23,8 @@ hash_sentiment_loughran_mcdonald
 hash_sentiment_nrc
 hash_sentiment_senticnet
 hash_sentiment_sentiword
+hash_sentiment_slangsd
+hash_sentiment_socal_google
 hash_sentiment_vadar
 hash_strength
 hash_syllable
