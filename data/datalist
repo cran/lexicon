@@ -22,8 +22,10 @@ hash_sentiment_slangsd
 hash_sentiment_socal_google
 hash_valence_shifters
 key_contractions
+key_corporate_social_responsibility
 key_grade
 key_rating
+key_regressive_imagery
 modal_loughran_mcdonald
 nrc_emotions
 pos_action_verb
@@ -34,6 +36,8 @@ pos_preposition
 profanity_alvarez
 profanity_arr_bad
 profanity_banned
+profanity_racist
+profanity_zac_anger
 sw_dolch
 sw_fry_100
 sw_fry_1000
