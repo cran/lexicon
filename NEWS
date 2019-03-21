@@ -17,6 +17,35 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
+
+
+lexicon 1.2.0 - 1.2.1
+----------------------------------------------------------------
+
+BUG FIXES
+
+* `hash_emoticons` had '3' as 'laughing' when it should have been '=3'.  This
+  has been corrected.
+
+NEW FEATURES
+
+* `cliches` added for comparison of common cliche phrases.
+
+MINOR FEATURES
+
+* `hash_nrc_emotion` added as a token to emotion lookup table.
+
+
+CHANGES
+
+* `profanity_zac_anger` contained 2 regexes marked as UTF-8 strings.  These were 
+  dropped.
+
+* `key_corporate_social_responsibility` contained 5 regexes & 5 tokens marked as 
+  Latin-1 strings.  These were pretty apostrophes that were converted to ASCII 
+  apostrophes.
+  
+
 lexicon 1.0.1 - 1.1.3
 ----------------------------------------------------------------
 

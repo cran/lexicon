@@ -1,3 +1,4 @@
+cliches
 common_names
 constraining_loughran_mcdonald
 emojis_sentiment
@@ -11,6 +12,7 @@ hash_emoticons
 hash_grady_pos
 hash_internet_slang
 hash_lemmas
+hash_nrc_emotions
 hash_sentiment_emojis
 hash_sentiment_huliu
 hash_sentiment_jockers_rinker

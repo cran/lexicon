@@ -1,6 +1,6 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 1.1.3
+Version: 1.2.1
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
@@ -20,19 +20,19 @@ Authors@R: c( person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role =
               person("Andrew Kachites", "McCallum", role = c('dtc', "cph")), person("Alireza", "Savand", role = c('dtc', "cph")),
               person("Zact", 'Anger', role = c('dtc', "cph")), person("Titus", "Wormer", role = c('dtc', "cph")), 
               person("Colin", "Martindale", role = c('dtc', "cph")), person("John", "Wiseman", role = c('dtc', "cph")),
-              person("Nadra", "Pencle", role = c('dtc', "cph")), person("Irina", "Mălăescu", role = c('dtc', "cph"))
+              person("Nadra", "Pencle", role = c('dtc', "cph")), person("Irina", "Malaescu", role = c('dtc', "cph"))
               )
 License: GPL-3
 LazyData: TRUE
 Encoding: UTF-8
-RoxygenNote: 6.1.0.9000
+RoxygenNote: 6.1.1
 BugReports: https://github.com/trinker/lexicon/issues?state=open
 URL: https://github.com/trinker/lexicon
-Collate: 'available_data.R' 'common_names.R'
+Collate: 'available_data.R' 'cliches.R' 'common_names.R'
         'constraining_loughran_mcdonald.R' 'freq_first_names.R'
         'freq_last_names.R' 'function_words.R' 'grady_augmented.R'
         'hash_emoticons.R' 'hash_grady_pos.R' 'hash_internet_slang.R'
-        'hash_lemmas.R' 'hash_sentiment_emojis.R'
+        'hash_lemmas.R' 'hash_nrc_emotion.R' 'hash_sentiment_emojis.R'
         'hash_sentiment_huliu.R' 'utils.R' 'hash_sentiment_jockers.R'
         'hash_sentiment_jockers_rinker.R'
         'hash_sentiment_loughran_mcdonald.R' 'hash_sentiment_nrc.R'
@@ -51,7 +51,7 @@ Collate: 'available_data.R' 'common_names.R'
         'sw_loughran_mcdonald.R' 'sw_lucene.R' 'sw_mallet.R'
         'sw_python.R'
 NeedsCompilation: no
-Packaged: 2018-10-20 11:49:10 UTC; trinker
+Packaged: 2019-03-20 16:40:42 UTC; trinker
 Author: Tyler Rinker [aut, cre, cph],
   University of Notre Dame [dtc, cph],
   Department of Knowledge Technologies [dtc, cph],
@@ -85,6 +85,6 @@ Author: Tyler Rinker [aut, cre, cph],
   Colin Martindale [dtc, cph],
   John Wiseman [dtc, cph],
   Nadra Pencle [dtc, cph],
-  Irina Mălăescu [dtc, cph]
+  Irina Malaescu [dtc, cph]
 Repository: CRAN
-Date/Publication: 2018-10-20 12:40:03 UTC
+Date/Publication: 2019-03-21 10:40:03 UTC
